@@ -29,9 +29,11 @@ class _goodesignState extends State<goodesign> {
                SizedBox(height: 30, width :200 ,
                child: Divider(thickness: 3,color: Colors.white, endIndent:10 ,) ),
                Container(
-                 color: Colors.white,
+             decoration: BoxDecoration( color: Colors.white, borderRadius: BorderRadius.circular(10) ),
+               
                  height: 50,
                  width: 300,
+                 
                  child: Row(
                    children: [
                      Icon(Icons.mail),
@@ -42,7 +44,7 @@ class _goodesignState extends State<goodesign> {
                ),
                SizedBox(height: 20,),
                  Container(
-                 color: Colors.white,
+              decoration: BoxDecoration( color: Colors.white, borderRadius: BorderRadius.circular(10) ),
                  height: 50,
                  width: 300,
                   child: Row(
